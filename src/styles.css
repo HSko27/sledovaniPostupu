@@ -1,0 +1,87 @@
+/* Resetování výchozích stylů */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Tělo stránky */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Světle šedé pozadí */
+    color: #333;
+  }
+  
+  /* Kontejner */
+  .container {
+    max-width: 800px;
+    margin: 20px auto; /* Zarovnání na střed */
+    padding: 20px;
+    background-color: #fff; /* Bílé pozadí */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Stín */
+    border-radius: 10px; /* Zaoblené hrany */
+  }
+  
+  /* Nadpis */
+  h1 {
+    margin-bottom: 20px;
+    color: #007bff; /* Modrá barva */
+  }
+  
+  /* Odstavec */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Formulář */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"],
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form textarea {
+    resize: vertical; /* Povoluje vertikální změnu velikosti textarea */
+  }
+  
+  /* Tlačítko */
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Modrá barva */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Plynulá změna barvy */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Tmavší modrá při najetí myší */
+  }
+  
+  /* Odkazy */
+  a {
+    color: #007bff; /* Modrá barva */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Plynulá změna barvy */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Tmavší modrá při najetí myší */
+  }
+  
